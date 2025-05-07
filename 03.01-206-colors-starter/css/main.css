@@ -10,7 +10,7 @@ html, body {
 }
 
 #wrapper {
-  width: 100%;
+  width:100%;
   max-width: 960px;
   margin: auto;
 }
@@ -28,13 +28,14 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 50%;
   height: 320px;
   float: left;
 }
 
 #column-1 {
   background: AntiqueWhite;
+
 }
 
 #column-2 {
@@ -49,7 +50,7 @@ header {
 /*---------- FOOTER ----------*/
 
 footer {
-  width: 100%;
+  width: 50%;
   height: 30px;
   background: #e3e3e3;
 }
@@ -65,18 +66,22 @@ footer {
 
   #column-1 {
     background-color: greenyellow;
+    width: 50%;
   }
 
   #column-2 {
     background-color: darkseagreen;
+    width: 50%;
   }
 
   #column-3 {
     background-color: darkorange;
+    width: 50%;
   }
 
   footer {
     background-color: darkorchid;
+    width: 50%;
   }
   
 }
@@ -86,22 +91,27 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: chartreuse ;
+    width: 50%;
   }
 
   #column-1 {
     background-color: cyan;
+    width: 50%;
   }
 
   #column-2 {
     background-color: cornflowerblue;
+    width: 50%;
   }
 
   #column-3 {
     background-color: gold;
+    width: 50%;
   }
 
   footer {
     background-color: indianred;
+    width: 50%;
   }
    
 }
